@@ -11,7 +11,7 @@ const config = {
   entry: path.join(__dirname, 'src/index.js'),
   // 输入
   output: {
-    filename: 'bundle[hash:8].js',
+    filename: 'bundle.[hash:8].js',
     path: path.join(__dirname, 'dist')
   },
   module: {
